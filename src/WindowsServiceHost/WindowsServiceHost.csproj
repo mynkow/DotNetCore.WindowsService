@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <!--https://docs.microsoft.com/en-us/dotnet/core/rid-catalog-->
+    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="4.5.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
